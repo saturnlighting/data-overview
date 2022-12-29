@@ -45,12 +45,12 @@ Great Britain
 1993-2021
 </td>
 <td style="text-align:left;">
-[text](https://roadtraffic.dft.gov.uk/downloads)
+<https://roadtraffic.dft.gov.uk/downloads>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-STRAVA
+Strava
 </td>
 <td style="text-align:left;">
 cycling levels
@@ -222,7 +222,7 @@ England
 </tr>
 <tr>
 <td style="text-align:left;">
-DATA POLICE UK
+Data police UK
 </td>
 <td style="text-align:left;">
 crime
