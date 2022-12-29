@@ -4,17 +4,11 @@ SATURN data overview
 This repository presents an overview of the different datasets that
 could be used for the SATURN project.
 
-# Variables and datasets
-
-The main variables of the SATURN project are cycling levels and road
-lighting. Road safety and crime are relevant. Other interesting
-variables are individual variables such as gender, age, income, and
-environmental variables such as infrastructure and spatial deprivation.
-
-    ## Warning: One or more parsing issues, call `problems()` on your data frame for details,
-    ## e.g.:
-    ##   dat <- vroom(...)
-    ##   problems(dat)
+The dependent variable for the SATURN project is cycling levels. The
+main independent variable is lighting (road or ambient lighting). Other
+relevant independent variables are road safety (road traffic casualties
+or near misses), crime or offences, cycling infrastructure, and
+deprivation.
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -32,14 +26,14 @@ Geographical coverage
 Years
 </th>
 <th style="text-align:left;">
-link
+More info
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-Traffic counts (Department for Tranport)
+Traffic counts
 </td>
 <td style="text-align:left;">
 cycling levels
@@ -51,8 +45,8 @@ Great Britain
 1993-2021
 </td>
 <td style="text-align:left;">
-<https://roadtraffic.dft.gov.uk/downloads> and
-<https://github.com/ITSLeeds/dftTrafficCounts>
+`https://roadtraffic.dft.gov.uk/downloads` and
+`https://github.com/ITSLeeds/dftTrafficCounts`
 </td>
 </tr>
 <tr>
@@ -69,7 +63,7 @@ Global
 2010-2021
 </td>
 <td style="text-align:left;">
-NA
+`https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/`
 </td>
 </tr>
 <tr>
@@ -86,7 +80,7 @@ Residents of England within Great Britain
 2010-2021
 </td>
 <td style="text-align:left;">
-NA
+`https://www.gov.uk/government/collections/national-travel-survey-statistics`
 </td>
 </tr>
 <tr>
@@ -103,7 +97,7 @@ England
 2017-2021
 </td>
 <td style="text-align:left;">
-NA
+`https://www.sportengland.org/research-and-data/data/active-lives`
 </td>
 </tr>
 <tr>
@@ -120,7 +114,7 @@ London
 2013-2022
 </td>
 <td style="text-align:left;">
-NA
+`https://cycling.data.tfl.gov.uk/`
 </td>
 </tr>
 <tr>
@@ -137,7 +131,7 @@ Global
 2012-2021
 </td>
 <td style="text-align:left;">
-NA
+`https://udsleeds.github.io/openinfra/reference/oi_is_lit.html`
 </td>
 </tr>
 <tr>
@@ -145,7 +139,7 @@ NA
 nightlight-data
 </td>
 <td style="text-align:left;">
-road lighting
+ambient lighting
 </td>
 <td style="text-align:left;">
 Glasgow and Edinburgh areas
@@ -154,7 +148,7 @@ Glasgow and Edinburgh areas
 2021, 2022
 </td>
 <td style="text-align:left;">
-NA
+`http://ubdc.gla.ac.uk/dataset/nightlight-data`
 </td>
 </tr>
 <tr>
@@ -162,7 +156,7 @@ NA
 VIIRS satellite imagery
 </td>
 <td style="text-align:left;">
-light levels
+ambient lighting
 </td>
 <td style="text-align:left;">
 global
@@ -171,7 +165,7 @@ global
 2014-present
 </td>
 <td style="text-align:left;">
-NA
+`https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG`
 </td>
 </tr>
 <tr>
@@ -188,7 +182,8 @@ Great Britain
 1979-2021
 </td>
 <td style="text-align:left;">
-NA
+`https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data`
+and `https://cran.r-project.org/web/packages/stats19/index.html`
 </td>
 </tr>
 <tr>
@@ -205,7 +200,25 @@ US
 1975-2020
 </td>
 <td style="text-align:left;">
-NA
+`https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars`
+and `https://elipousson.github.io/crashapi/`
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Near Miss project data
+</td>
+<td style="text-align:left;">
+near misses
+</td>
+<td style="text-align:left;">
+England
+</td>
+<td style="text-align:left;">
+???
+</td>
+<td style="text-align:left;">
+`https://nacto.org/wp-content/uploads/2017/06/The-Near-Miss-Project-Quantifying-Cyclist-Comfort-and-Safety.pdf`
 </td>
 </tr>
 <tr>
@@ -222,24 +235,8 @@ England, Wales and Northern Ireland
 2013-2022
 </td>
 <td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-STRAVA
-</td>
-<td style="text-align:left;">
-individual variables (e.g. gender, age, etc.)
-</td>
-<td style="text-align:left;">
-Global
-</td>
-<td style="text-align:left;">
-2010-2022
-</td>
-<td style="text-align:left;">
-NA
+`https://data.police.uk/data/archive/` and
+`https://github.com/njtierney/ukpolice`
 </td>
 </tr>
 <tr>
@@ -256,7 +253,8 @@ Global
 2015-2018
 </td>
 <td style="text-align:left;">
-NA
+`https://github.com/udsleeds/openinfra/issues/105` and
+`https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv`
 </td>
 </tr>
 <tr>
@@ -264,7 +262,7 @@ NA
 IMD
 </td>
 <td style="text-align:left;">
-spatial deprivation
+deprivation
 </td>
 <td style="text-align:left;">
 England
@@ -276,64 +274,5 @@ England
 NA
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Near Miss project data
-</td>
-<td style="text-align:left;">
-Near misses
-</td>
-<td style="text-align:left;">
-England
-</td>
-<td style="text-align:left;">
-???
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
 </tbody>
 </table>
-
-# Relevant links
-
-- Traffic counts: <https://roadtraffic.dft.gov.uk/downloads>,
-  <https://github.com/ITSLeeds/dftTrafficCounts>
-
-- STRAVA Metro data
-  <https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/>
-
-- National Travel Survey
-  <https://www.gov.uk/government/collections/national-travel-survey-statistics>
-
-- Active Lives Survey
-  <https://www.sportengland.org/research-and-data/data/active-lives>
-
-- TfL cycle counts <https://cycling.data.tfl.gov.uk/>
-
-- Safer Active project:
-  <https://saferactive.github.io/trafficalmr/articles/report3.html>,
-  <https://saferactive.github.io/trafficalmr/articles/report4.html>,
-  <https://github.com/saferactive/saferactive/blob/master/code/tests/bradford-and-beyond.md>
-
-- Lighting presence
-  <https://udsleeds.github.io/openinfra/reference/oi_is_lit.html>;
-  <http://ubdc.gla.ac.uk/dataset/nightlight-data>
-
-- VIIRS link:
-  <https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG>
-
-- Road safety:
-  <https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data>,
-  <https://cran.r-project.org/web/packages/stats19/index.html>,
-  <https://elipousson.github.io/crashapi/>,
-  <https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars>
-
-- Crime: <https://data.police.uk/data/archive/>;
-  <https://github.com/njtierney/ukpolice>
-
-- Infrastructure: <https://github.com/udsleeds/openinfra/issues/105>,
-  <https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv>
-
-- 

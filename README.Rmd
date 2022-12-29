@@ -6,50 +6,14 @@ always_allow_html: true
 
 This repository presents an overview of the different datasets that could be used for the SATURN project.
 
-# Variables and datasets
-
-The main variables of the SATURN project are cycling levels and road lighting. Road safety and crime are relevant. Other interesting variables are individual variables such as gender, age, income, and environmental variables such as infrastructure and spatial deprivation.
+The dependent variable for the SATURN project is cycling levels. The main independent variable is lighting (road or ambient lighting). Other relevant independent variables are road safety (road traffic casualties or near misses), crime or offences, cycling infrastructure, and deprivation.
 
 ```{r echo=FALSE, message=FALSE}
 library(kableExtra)
 
-# data <- c('Traffic counts (Department for Tranport)', 'STRAVA', 'National Travel Survey (NTS)', 'Active Lives Adult Survey (ALS)', 'Transport for London (TfL) counters', 'OSM (openinfra project `oi_is_lit()` function)', 'nightlight-data', 'STATS19', 'FARS (Fatality Analysis Reporting System)', 'DATA POLICE UK', 'STRAVA', 'OSM', 'IMD')
-# variable <- c('cycling levels', 'cycling levels', 'cycling levels', 'cycling levels', 'cycling levels', 'road lighting', 'road lighting', 'road safety', 'road safety', 'crime', 'individual variables (e.g. gender, age, etc.)', 'cycling infrastructure', 'spatial deprivation')
-# area <- c('Great Britain', 'Global', 'Residents of England within Great Britain', 'England', 'London', 'Global', 'Glasgow and Edinburgh areas', 'Great Britain', 'US', 'England, Wales and Northern Ireland', 'Global', 'Global', 'England')
-# years <- c('1993-2021', '2010-2021', '2010-2021', '2017-2021', '2013-2022', '2012-2021', '2021, 2022', '1979-2021', '1975-2020', '2013-2022', '2010-2022', '2015-2018', '2019')
-
-# df <- data.frame(data, variable, area, years)
-
-# colnames(df) <- c('Dataset', 'Variable', 'Geographical coverage', 'Years')
-# readr::write_csv(df, "active-travel-lighting-datasets.csv")
 df = readr::read_csv("active-travel-lighting-datasets.csv")
 kbl(df) %>%
   kable_styling()
 
 ```
 
-# Relevant links
-
-- Traffic counts: https://roadtraffic.dft.gov.uk/downloads, https://github.com/ITSLeeds/dftTrafficCounts
-
-- STRAVA Metro data https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/
-
-- National Travel Survey https://www.gov.uk/government/collections/national-travel-survey-statistics
-
-- Active Lives Survey https://www.sportengland.org/research-and-data/data/active-lives
-
-- TfL cycle counts https://cycling.data.tfl.gov.uk/
-
-- Safer Active project: https://saferactive.github.io/trafficalmr/articles/report3.html,  https://saferactive.github.io/trafficalmr/articles/report4.html, https://github.com/saferactive/saferactive/blob/master/code/tests/bradford-and-beyond.md
-
-- Lighting presence https://udsleeds.github.io/openinfra/reference/oi_is_lit.html; http://ubdc.gla.ac.uk/dataset/nightlight-data
-
-- VIIRS link: https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG
-
-- Road safety: https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data, https://cran.r-project.org/web/packages/stats19/index.html, https://elipousson.github.io/crashapi/, https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars
-
-- Crime: https://data.police.uk/data/archive/; https://github.com/njtierney/ukpolice
-
-- Infrastructure: https://github.com/udsleeds/openinfra/issues/105, https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv
-
-- 
