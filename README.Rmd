@@ -22,7 +22,7 @@ library(kableExtra)
 # colnames(df) <- c('Dataset', 'Variable', 'Geographical coverage', 'Years', 'Links')
 # readr::write_csv(df, "active-travel-lighting-datasets.csv")
 df = readr::read_csv("active-travel-lighting-datasets.csv")
-kbl(df) %>%
+kbl(df, "html") %>%
   kable_styling()
 
 ```

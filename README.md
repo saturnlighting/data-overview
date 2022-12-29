@@ -45,7 +45,7 @@ Great Britain
 1993-2021
 </td>
 <td style="text-align:left;">
-://roadtraffic.dft.gov.uk/downloads,
+:roadtraffic.dft.gov.uk/downloads,
 ://github.com/ITSLeeds/dftTrafficCounts
 </td>
 </tr>
@@ -63,7 +63,7 @@ Global
 2010-2021
 </td>
 <td style="text-align:left;">
-`https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/`
+<https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/>
 </td>
 </tr>
 <tr>

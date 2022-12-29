@@ -1,6 +1,6 @@
 Dataset,Variable,Geographical coverage,Time coverage,More info
-Traffic counts,cycling levels,Great Britain,1993-2021,"\https://roadtraffic.dft.gov.uk/downloads, \https://github.com/ITSLeeds/dftTrafficCounts"
-Strava,cycling levels,Global,2010-2021,`https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/`
+Traffic counts,cycling levels,Great Britain,1993-2021,"\https:roadtraffic.dft.gov.uk/downloads, \https://github.com/ITSLeeds/dftTrafficCounts"
+Strava,cycling levels,Global,2010-2021,"https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/"
 National Travel Survey (NTS),cycling levels,Residents of England within Great Britain,2010-2021,`https://www.gov.uk/government/collections/national-travel-survey-statistics`
 Active Lives Adult Survey (ALS),cycling levels,England,2017-2021,`https://www.sportengland.org/research-and-data/data/active-lives`
 Transport for London (TfL) counters,cycling levels,London,2013-2022,`https://cycling.data.tfl.gov.uk/`
