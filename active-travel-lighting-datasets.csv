@@ -1,15 +1,16 @@
-Dataset,Variable,Geographical coverage,Time coverage,More info
-Traffic counts,cycling levels,Great Britain,1993-2021,"\https:roadtraffic.dft.gov.uk/downloads, \https://github.com/ITSLeeds/dftTrafficCounts"
-Strava,cycling levels,Global,2010-2021,"https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/"
-National Travel Survey (NTS),cycling levels,Residents of England within Great Britain,2010-2021,`https://www.gov.uk/government/collections/national-travel-survey-statistics`
-Active Lives Adult Survey (ALS),cycling levels,England,2017-2021,`https://www.sportengland.org/research-and-data/data/active-lives`
-Transport for London (TfL) counters,cycling levels,London,2013-2022,`https://cycling.data.tfl.gov.uk/`
-OSM (openinfra project `oi_is_lit()` function),road lighting,Global,2012-2021,`https://udsleeds.github.io/openinfra/reference/oi_is_lit.html`
-nightlight-data,ambient lighting,Glasgow and Edinburgh areas,2021 and 2022,`http://ubdc.gla.ac.uk/dataset/nightlight-data`
-VIIRS satellite imagery,ambient lighting,global,2014-present,`https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG`
-STATS19,road safety,Great Britain,1979-2021,`https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data` and `https://cran.r-project.org/web/packages/stats19/index.html`
-FARS (Fatality Analysis Reporting System),road safety,US,1975-2020,`https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars` and `https://elipousson.github.io/crashapi/` 
-Near Miss project data,near misses,England,???,`https://nacto.org/wp-content/uploads/2017/06/The-Near-Miss-Project-Quantifying-Cyclist-Comfort-and-Safety.pdf`
-Data police UK,crime,"England, Wales and Northern Ireland",2013-2022,`https://data.police.uk/data/archive/` and `https://github.com/njtierney/ukpolice`
-OSM,cycling infrastructure,Global,2015-2018,`https://github.com/udsleeds/openinfra/issues/105` and `https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv`
-IMD,deprivation,England,2019,
+Id,Dataset,Variable,Variable in detail,Geographical coverage,Time coverage
+1,Department for Transport (DfT) traffic counts,cycling levels,automated cycling counts,Great Britain,1993-2021
+2,Strava,cycling levels,"cyclists by edges, nodes, and od",Global,2010-2021
+3,National Travel Survey (NTS),cycling levels,cycling time,Residents of England within Great Britain,2010-2021
+4,Active Lives Adult Survey (ALS),cycling levels,cycling frequency and duration,England,2017-2021
+5,Transport for London (TfL) counts,cycling levels,automated cycling counts,London,2013-2022
+6,Openinfra project (oi_is_lit),lighting,road lighting,Global,2012-2021
+7,nightlight-data,lighting,ambient lighting,Glasgow and Edinburgh areas,2021 and 2022
+8,VIIRS satellite imagery,lighting,ambient lighting,global,2014-present
+9,STATS19,road safety,"slight, severe, and fatal casualties",Great Britain,1979-2021
+10,FARS (Fatality Analysis Reporting System),road safety,fatal casualties,US,1975-2020
+11,Near Miss project data,road safety,near misses,England,???
+12,Data police UK,crime,offenses,"England, Wales and Northern Ireland",2013-2022
+13,Scottish Index of Multiple Deprivation (IMD),crime and deprivation,crime and deprivation,Scotland,2020
+14,English Index of Multiple Deprivation (IMD),crime and deprivation,crime and deprivation,England,2019
+15,OpenStretMap,road infrastructure,cycling infrastructure,Global,2015-2018

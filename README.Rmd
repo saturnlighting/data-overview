@@ -3,10 +3,11 @@ output: github_document
 title: SATURN data overview
 always_allow_html: true
 ---
+## Active-travel-lighting datasets
 
 This repository presents an overview of the different datasets that could be used for the SATURN project.
 
-The dependent variable for the SATURN project is cycling levels. The main independent variable is lighting (road or ambient lighting). Other relevant independent variables are road safety (road traffic casualties or near misses), crime or offences, cycling infrastructure, and deprivation.
+The dependent variable for the SATURN project is cycling levels. The main independent variable is lighting. Other relevant independent variables are road safety, crime, deprivation, and road infrastructure.
 
 ```{r echo=FALSE, message=FALSE}
 library(kableExtra)
@@ -26,3 +27,22 @@ kbl(df, "html") %>%
   kable_styling()
 
 ```
+
+## More information
+
+1. DfT counts: https://roadtraffic.dft.gov.uk/downloads; https://github.com/ITSLeeds/dftTrafficCounts
+2. Strava: https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data
+3. NTS: https://www.gov.uk/government/collections/national-travel-survey-statistics`
+4. ALS: https://www.sportengland.org/research-and-data/data/active-lives
+5. TfL counts: https://cycling.data.tfl.gov.uk
+6. Openinfra project (oi_is_lit): https://udsleeds.github.io/openinfra/reference/oi_is_lit.html
+7. nightlight-data: http://ubdc.gla.ac.uk/dataset/nightlight-data
+8. VIIRS satellite imagery: https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG
+9. STATS19: https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data;  https://cran.r-project.org/web/packages/stats19/index.html
+10. FARS: https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars; https://elipousson.github.io/crashapi 
+11. Near Miss project data: https://nacto.org/wp-content/uploads/2017/06/The-Near-Miss-Project-Quantifying-Cyclist-Comfort-and-Safety.pdf
+12. Data police UK: https://data.police.uk/data/archive; https://github.com/njtierney/ukpolice
+13. Scottish IMD: https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/?utm_source=redirect&utm_medium=shorturl&utm_campaign=simd
+14. English IMD: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
+15. OSM: https://github.com/udsleeds/openinfra/issues/105; https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv
+
