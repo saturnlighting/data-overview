@@ -45,9 +45,8 @@ Great Britain
 1993-2021
 </td>
 <td style="text-align:left;">
-“\<a href="<a
-href="https://www.gov.uk/government/collections/national-travel-survey-statistics\%22%3Ehttps://www.gov.uk/government/collections/national-travel-survey-statistics%3C/a%3E"
-class="uri">https://www.gov.uk/government/collections/national-travel-survey-statistics\"&gt;https://www.gov.uk/government/collections/national-travel-survey-statistics&lt;/a&gt;</a>;”
+://roadtraffic.dft.gov.uk/downloads,
+://github.com/ITSLeeds/dftTrafficCounts
 </td>
 </tr>
 <tr>

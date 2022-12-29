@@ -10,9 +10,19 @@ The dependent variable for the SATURN project is cycling levels. The main indepe
 
 ```{r echo=FALSE, message=FALSE}
 library(kableExtra)
-
+# 
+# data <- c('Traffic counts (Department for Tranport)', 'STRAVA', 'National Travel Survey (NTS)', 'Active Lives Adult Survey (ALS)', 'Transport for London (TfL) counters', 'OSM (openinfra project `oi_is_lit()` function)', 'nightlight-data', 'STATS19', 'FARS (Fatality Analysis Reporting System)', 'DATA POLICE UK', 'STRAVA', 'OSM', 'IMD')
+# variable <- c('cycling levels', 'cycling levels', 'cycling levels', 'cycling levels', 'cycling levels', 'road lighting', 'road lighting', 'road safety', 'road safety', 'crime', 'individual variables (e.g. gender, age, etc.)', 'cycling infrastructure', 'spatial deprivation')
+# area <- c('Great Britain', 'Global', 'Residents of England within Great Britain', 'England', 'London', 'Global', 'Glasgow and Edinburgh areas', 'Great Britain', 'US', 'England, Wales and Northern Ireland', 'Global', 'Global', 'England')
+# years <- c('1993-2021', '2010-2021', '2010-2021', '2017-2021', '2013-2022', '2012-2021', '2021, 2022', '1979-2021', '1975-2020', '2013-2022', '2010-2022', '2015-2018', '2019')
+# links <- c('https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/','https://www.gov.uk/government/collections/national-travel-survey-statistics','','','','','','','','','','','')
+# 
+# df <- data.frame(data, variable, area, years, links)
+# 
+# colnames(df) <- c('Dataset', 'Variable', 'Geographical coverage', 'Years', 'Links')
+# readr::write_csv(df, "active-travel-lighting-datasets.csv")
 df = readr::read_csv("active-travel-lighting-datasets.csv")
 kbl(df) %>%
   kable_styling()
-```
 
+```
