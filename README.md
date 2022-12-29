@@ -23,7 +23,7 @@ Variable
 Geographical coverage
 </th>
 <th style="text-align:left;">
-Years
+Time coverage
 </th>
 <th style="text-align:left;">
 More info
@@ -45,7 +45,7 @@ Great Britain
 1993-2021
 </td>
 <td style="text-align:left;">
-<https://roadtraffic.dft.gov.uk/downloads>
+“=HYPERLINK(”“<http://www.yahoo.com>”“;”“See Yahoo”“)”
 </td>
 </tr>
 <tr>
