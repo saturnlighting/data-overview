@@ -11,6 +11,11 @@ lighting. Road safety and crime are relevant. Other interesting
 variables are individual variables such as gender, age, income, and
 environmental variables such as infrastructure and spatial deprivation.
 
+    ## Warning: One or more parsing issues, call `problems()` on your data frame for details,
+    ## e.g.:
+    ##   dat <- vroom(...)
+    ##   problems(dat)
+
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -25,6 +30,9 @@ Geographical coverage
 </th>
 <th style="text-align:left;">
 Years
+</th>
+<th style="text-align:left;">
+link
 </th>
 </tr>
 </thead>
@@ -42,6 +50,10 @@ Great Britain
 <td style="text-align:left;">
 1993-2021
 </td>
+<td style="text-align:left;">
+<https://roadtraffic.dft.gov.uk/downloads> and
+<https://github.com/ITSLeeds/dftTrafficCounts>
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -55,6 +67,9 @@ Global
 </td>
 <td style="text-align:left;">
 2010-2021
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -70,6 +85,9 @@ Residents of England within Great Britain
 <td style="text-align:left;">
 2010-2021
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -83,6 +101,9 @@ England
 </td>
 <td style="text-align:left;">
 2017-2021
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -98,6 +119,9 @@ London
 <td style="text-align:left;">
 2013-2022
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -111,6 +135,9 @@ Global
 </td>
 <td style="text-align:left;">
 2012-2021
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -126,6 +153,9 @@ Glasgow and Edinburgh areas
 <td style="text-align:left;">
 2021, 2022
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -139,6 +169,9 @@ global
 </td>
 <td style="text-align:left;">
 2014-present
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -154,6 +187,9 @@ Great Britain
 <td style="text-align:left;">
 1979-2021
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -167,6 +203,9 @@ US
 </td>
 <td style="text-align:left;">
 1975-2020
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -182,6 +221,9 @@ England, Wales and Northern Ireland
 <td style="text-align:left;">
 2013-2022
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -195,6 +237,9 @@ Global
 </td>
 <td style="text-align:left;">
 2010-2022
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -210,6 +255,9 @@ Global
 <td style="text-align:left;">
 2015-2018
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -223,6 +271,9 @@ England
 </td>
 <td style="text-align:left;">
 2019
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 <tr>
@@ -238,11 +289,12 @@ England
 <td style="text-align:left;">
 ???
 </td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 </tbody>
 </table>
-<!-- # Cycling levels -->
-<!-- One of the main challenges of the SATURN project is which dataset to choose as a proxy for cycling levels. Several possibilities are being considered. The following table shows the pros and cons of each of them. -->
 
 # Relevant links
 
@@ -283,3 +335,5 @@ England
 
 - Infrastructure: <https://github.com/udsleeds/openinfra/issues/105>,
   <https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv>
+
+- 
