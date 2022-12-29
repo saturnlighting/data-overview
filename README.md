@@ -145,7 +145,7 @@ ambient lighting
 Glasgow and Edinburgh areas
 </td>
 <td style="text-align:left;">
-2021, 2022
+2021 and 2022
 </td>
 <td style="text-align:left;">
 `http://ubdc.gla.ac.uk/dataset/nightlight-data`

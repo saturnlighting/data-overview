@@ -1,11 +1,11 @@
 Dataset,Variable,Geographical coverage,Years, More info
-Traffic counts,cycling levels,Great Britain,1993-2021,https://roadtraffic.dft.gov.uk/downloads and https://github.com/ITSLeeds/dftTrafficCounts
+Traffic counts,cycling levels,Great Britain,1993-2021,[https://roadtraffic.dft.gov.uk/downloads](https://roadtraffic.dft.gov.uk/downloads) and https://github.com/ITSLeeds/dftTrafficCounts
 STRAVA,cycling levels,Global,2010-2021,`https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data/`
 National Travel Survey (NTS),cycling levels,Residents of England within Great Britain,2010-2021,`https://www.gov.uk/government/collections/national-travel-survey-statistics`
 Active Lives Adult Survey (ALS),cycling levels,England,2017-2021,`https://www.sportengland.org/research-and-data/data/active-lives`
 Transport for London (TfL) counters,cycling levels,London,2013-2022,`https://cycling.data.tfl.gov.uk/`
 OSM (openinfra project `oi_is_lit()` function),road lighting,Global,2012-2021,`https://udsleeds.github.io/openinfra/reference/oi_is_lit.html`
-nightlight-data,ambient lighting,Glasgow and Edinburgh areas,"2021, 2022",`http://ubdc.gla.ac.uk/dataset/nightlight-data`
+nightlight-data,ambient lighting,Glasgow and Edinburgh areas,2021 and 2022,`http://ubdc.gla.ac.uk/dataset/nightlight-data`
 VIIRS satellite imagery,ambient lighting,global,2014-present,`https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG`
 STATS19,road safety,Great Britain,1979-2021,`https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data` and `https://cran.r-project.org/web/packages/stats19/index.html`
 FARS (Fatality Analysis Reporting System),road safety,US,1975-2020,`https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars` and `https://elipousson.github.io/crashapi/` 
