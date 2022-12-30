@@ -1,16 +1,18 @@
-Id,Dataset,Variable,Variable in detail,Geographical coverage,Time coverage
-1,Department for Transport (DfT) traffic counts,cycling levels,automated cycling counts,Great Britain,1993-2021
-2,Strava,cycling levels,"cyclists by edges, nodes, and od",Global,2010-2021
-3,National Travel Survey (NTS),cycling levels,cycling time,Residents of England within Great Britain,2010-2021
-4,Active Lives Adult Survey (ALS),cycling levels,cycling frequency and duration,England,2017-2021
-5,Transport for London (TfL) counts,cycling levels,automated cycling counts,London,2013-2022
-6,Openinfra project (oi_is_lit),lighting,road lighting,Global,2012-2021
-7,nightlight-data,lighting,ambient lighting,Glasgow and Edinburgh areas,2021 and 2022
-8,VIIRS satellite imagery,lighting,ambient lighting,global,2014-present
-9,STATS19,road safety,"slight, severe, and fatal casualties",Great Britain,1979-2021
-10,FARS (Fatality Analysis Reporting System),road safety,fatal casualties,US,1975-2020
-11,Near Miss project data,road safety,near misses,England,???
-12,Data police UK,crime,offenses,"England, Wales and Northern Ireland",2013-2022
-13,Scottish Index of Multiple Deprivation (IMD),crime and deprivation,crime and deprivation,Scotland,2020
-14,English Index of Multiple Deprivation (IMD),crime and deprivation,crime and deprivation,England,2019
-15,OpenStretMap,road infrastructure,cycling infrastructure,Global,2015-2018
+Id,Dataset,Variable ,Specific variable,Geographical coverage,Time coverage,Availability
+1,Department for Transport (DfT) traffic counts,Cycling levels,Automated cycling counts,Great Britain,1993-2021,yes
+2,Cycling Scotland Data,Cycling levels,Automated and manual cycling counts,Scotland,2017-2018,Requested to the Urban Big Data Centre (UBDC)
+3,Transport for London (TfL) counts,Cycling levels,Automated cycling counts,London,2013-2022,yes
+4,Strava,Cycling levels,"Cyclists by edges, nodes, and origin destimation",Global,2010-2021,"Available Manchester 2015-2018, Sheffield 2017, and Tyne & Wear 2015-2018. Requested Glasgow 2013-2020, Scotland 2015-2019 to the UBDC, also all the UK or England to Strava"
+5,National Travel Survey (NTS),Cycling levels,"Cycling participation, frequency, and distance",Residents of England within Great Britain,2010-2021,yes
+6,Active Lives Adult Survey (ALS),Cycling levels,"Cycling participation, frequency, and duration",England,2017-2021,yes
+7,iMCD Project: Glasgow Household Survey and Travel Diary Data,Cycling levels,Cyclists participation and origin destimation,Glasgow and Clyde Valley Planning area,Between April and November 2015,Requested to the UBDC
+8,Openinfra project (oi_is_lit),Lighting,Road lighting,Global,2012-2021,yes
+9,Nightlight-data,Lighting,Ambient lighting,Glasgow and Edinburgh areas,2021 and 2022,Requested to the UBDC
+10,VIIRS satellite imagery,Lighting,Ambient lighting,global,2014-present,yes
+11,STATS19,Road safety,"Slight, severe, and fatal casualties",Great Britain,1979-2021,yes
+12,FARS (Fatality Analysis Reporting System),Road safety,Fatal casualties,United States,1975-2020,yes
+13,Near Miss project data,Road safety,Near misses,United Kingdom,Autumn 2014 and Autumn 2015,?
+14,Data police UK,Crime,Offenses,"England, Wales and Northern Ireland",2013-2022,yes
+15,Scottish Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,Scotland,2020,yes
+16,English Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,England,2019,yes
+17,OpenStretMap,Infrastructure,Cycling infrastructure,Global,2015-2018,yes

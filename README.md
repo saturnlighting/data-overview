@@ -3,12 +3,12 @@ SATURN data overview
 
 ## Active-travel-lighting datasets
 
-This repository presents an overview of the different datasets that
-could be used for the SATURN project.
+This repository presents an overview of the datasets that could be used
+for the SATURN project.
 
 The dependent variable for the SATURN project is cycling levels. The
 main independent variable is lighting. Other relevant independent
-variables are road safety, crime, deprivation, and road infrastructure.
+variables are road safety, crime, deprivation, and infrastructure.
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -23,13 +23,16 @@ Dataset
 Variable
 </th>
 <th style="text-align:left;">
-Variable in detail
+Specific variable
 </th>
 <th style="text-align:left;">
 Geographical coverage
 </th>
 <th style="text-align:left;">
 Time coverage
+</th>
+<th style="text-align:left;">
+Availability
 </th>
 </tr>
 </thead>
@@ -42,10 +45,10 @@ Time coverage
 Department for Transport (DfT) traffic counts
 </td>
 <td style="text-align:left;">
-cycling levels
+Cycling levels
 </td>
 <td style="text-align:left;">
-automated cycling counts
+Automated cycling counts
 </td>
 <td style="text-align:left;">
 Great Britain
@@ -53,25 +56,31 @@ Great Britain
 <td style="text-align:left;">
 1993-2021
 </td>
+<td style="text-align:left;">
+yes
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:left;">
-Strava
+Cycling Scotland Data
 </td>
 <td style="text-align:left;">
-cycling levels
+Cycling levels
 </td>
 <td style="text-align:left;">
-cyclists by edges, nodes, and od
+Automated and manual cycling counts
 </td>
 <td style="text-align:left;">
-Global
+Scotland
 </td>
 <td style="text-align:left;">
-2010-2021
+2017-2018
+</td>
+<td style="text-align:left;">
+Requested to the Urban Big Data Centre (UBDC)
 </td>
 </tr>
 <tr>
@@ -79,53 +88,13 @@ Global
 3
 </td>
 <td style="text-align:left;">
-National Travel Survey (NTS)
-</td>
-<td style="text-align:left;">
-cycling levels
-</td>
-<td style="text-align:left;">
-cycling time
-</td>
-<td style="text-align:left;">
-Residents of England within Great Britain
-</td>
-<td style="text-align:left;">
-2010-2021
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-4
-</td>
-<td style="text-align:left;">
-Active Lives Adult Survey (ALS)
-</td>
-<td style="text-align:left;">
-cycling levels
-</td>
-<td style="text-align:left;">
-cycling frequency and duration
-</td>
-<td style="text-align:left;">
-England
-</td>
-<td style="text-align:left;">
-2017-2021
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:left;">
 Transport for London (TfL) counts
 </td>
 <td style="text-align:left;">
-cycling levels
+Cycling levels
 </td>
 <td style="text-align:left;">
-automated cycling counts
+Automated cycling counts
 </td>
 <td style="text-align:left;">
 London
@@ -133,25 +102,79 @@ London
 <td style="text-align:left;">
 2013-2022
 </td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:left;">
+Strava
+</td>
+<td style="text-align:left;">
+Cycling levels
+</td>
+<td style="text-align:left;">
+Cyclists by edges, nodes, and origin destimation
+</td>
+<td style="text-align:left;">
+Global
+</td>
+<td style="text-align:left;">
+2010-2021
+</td>
+<td style="text-align:left;">
+Available Manchester 2015-2018, Sheffield 2017, and Tyne & Wear
+2015-2018. Requested Glasgow 2013-2020, Scotland 2015-2019 to the UBDC,
+also all the UK or England to Strava
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+National Travel Survey (NTS)
+</td>
+<td style="text-align:left;">
+Cycling levels
+</td>
+<td style="text-align:left;">
+Cycling participation, frequency, and distance
+</td>
+<td style="text-align:left;">
+Residents of England within Great Britain
+</td>
+<td style="text-align:left;">
+2010-2021
+</td>
+<td style="text-align:left;">
+yes
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:left;">
-Openinfra project (oi_is_lit)
+Active Lives Adult Survey (ALS)
 </td>
 <td style="text-align:left;">
-lighting
+Cycling levels
 </td>
 <td style="text-align:left;">
-road lighting
+Cycling participation, frequency, and duration
 </td>
 <td style="text-align:left;">
-Global
+England
 </td>
 <td style="text-align:left;">
-2012-2021
+2017-2021
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -159,19 +182,22 @@ Global
 7
 </td>
 <td style="text-align:left;">
-nightlight-data
+iMCD Project: Glasgow Household Survey and Travel Diary Data
 </td>
 <td style="text-align:left;">
-lighting
+Cycling levels
 </td>
 <td style="text-align:left;">
-ambient lighting
+Cyclists participation and origin destimation
 </td>
 <td style="text-align:left;">
-Glasgow and Edinburgh areas
+Glasgow and Clyde Valley Planning area
 </td>
 <td style="text-align:left;">
-2021 and 2022
+Between April and November 2015
+</td>
+<td style="text-align:left;">
+Requested to the UBDC
 </td>
 </tr>
 <tr>
@@ -179,19 +205,22 @@ Glasgow and Edinburgh areas
 8
 </td>
 <td style="text-align:left;">
-VIIRS satellite imagery
+Openinfra project (oi_is_lit)
 </td>
 <td style="text-align:left;">
-lighting
+Lighting
 </td>
 <td style="text-align:left;">
-ambient lighting
+Road lighting
 </td>
 <td style="text-align:left;">
-global
+Global
 </td>
 <td style="text-align:left;">
-2014-present
+2012-2021
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -199,19 +228,22 @@ global
 9
 </td>
 <td style="text-align:left;">
-STATS19
+Nightlight-data
 </td>
 <td style="text-align:left;">
-road safety
+Lighting
 </td>
 <td style="text-align:left;">
-slight, severe, and fatal casualties
+Ambient lighting
 </td>
 <td style="text-align:left;">
-Great Britain
+Glasgow and Edinburgh areas
 </td>
 <td style="text-align:left;">
-1979-2021
+2021 and 2022
+</td>
+<td style="text-align:left;">
+Requested to the UBDC
 </td>
 </tr>
 <tr>
@@ -219,19 +251,22 @@ Great Britain
 10
 </td>
 <td style="text-align:left;">
-FARS (Fatality Analysis Reporting System)
+VIIRS satellite imagery
 </td>
 <td style="text-align:left;">
-road safety
+Lighting
 </td>
 <td style="text-align:left;">
-fatal casualties
+Ambient lighting
 </td>
 <td style="text-align:left;">
-US
+global
 </td>
 <td style="text-align:left;">
-1975-2020
+2014-present
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -239,19 +274,22 @@ US
 11
 </td>
 <td style="text-align:left;">
-Near Miss project data
+STATS19
 </td>
 <td style="text-align:left;">
-road safety
+Road safety
 </td>
 <td style="text-align:left;">
-near misses
+Slight, severe, and fatal casualties
 </td>
 <td style="text-align:left;">
-England
+Great Britain
 </td>
 <td style="text-align:left;">
-???
+1979-2021
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -259,19 +297,22 @@ England
 12
 </td>
 <td style="text-align:left;">
-Data police UK
+FARS (Fatality Analysis Reporting System)
 </td>
 <td style="text-align:left;">
-crime
+Road safety
 </td>
 <td style="text-align:left;">
-offenses
+Fatal casualties
 </td>
 <td style="text-align:left;">
-England, Wales and Northern Ireland
+United States
 </td>
 <td style="text-align:left;">
-2013-2022
+1975-2020
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -279,19 +320,22 @@ England, Wales and Northern Ireland
 13
 </td>
 <td style="text-align:left;">
-Scottish Index of Multiple Deprivation (IMD)
+Near Miss project data
 </td>
 <td style="text-align:left;">
-crime and deprivation
+Road safety
 </td>
 <td style="text-align:left;">
-crime and deprivation
+Near misses
 </td>
 <td style="text-align:left;">
-Scotland
+United Kingdom
 </td>
 <td style="text-align:left;">
-2020
+Autumn 2014 and Autumn 2015
+</td>
+<td style="text-align:left;">
+?
 </td>
 </tr>
 <tr>
@@ -299,19 +343,22 @@ Scotland
 14
 </td>
 <td style="text-align:left;">
-English Index of Multiple Deprivation (IMD)
+Data police UK
 </td>
 <td style="text-align:left;">
-crime and deprivation
+Crime
 </td>
 <td style="text-align:left;">
-crime and deprivation
+Offenses
 </td>
 <td style="text-align:left;">
-England
+England, Wales and Northern Ireland
 </td>
 <td style="text-align:left;">
-2019
+2013-2022
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 <tr>
@@ -319,19 +366,68 @@ England
 15
 </td>
 <td style="text-align:left;">
+Scottish Index of Multiple Deprivation (IMD)
+</td>
+<td style="text-align:left;">
+Crime and deprivation
+</td>
+<td style="text-align:left;">
+Crime and deprivation
+</td>
+<td style="text-align:left;">
+Scotland
+</td>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+English Index of Multiple Deprivation (IMD)
+</td>
+<td style="text-align:left;">
+Crime and deprivation
+</td>
+<td style="text-align:left;">
+Crime and deprivation
+</td>
+<td style="text-align:left;">
+England
+</td>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
 OpenStretMap
 </td>
 <td style="text-align:left;">
-road infrastructure
+Infrastructure
 </td>
 <td style="text-align:left;">
-cycling infrastructure
+Cycling infrastructure
 </td>
 <td style="text-align:left;">
 Global
 </td>
 <td style="text-align:left;">
 2015-2018
+</td>
+<td style="text-align:left;">
+yes
 </td>
 </tr>
 </tbody>
@@ -341,31 +437,35 @@ Global
 
 1.  DfT counts: <https://roadtraffic.dft.gov.uk/downloads>;
     <https://github.com/ITSLeeds/dftTrafficCounts>
-2.  Strava:
+2.  Cycling Scotland Data:
+    <https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/cycling-scotland-data/>
+3.  TfL counts: <https://cycling.data.tfl.gov.uk>
+4.  Strava:
     <https://www.ubdc.ac.uk/data-services/data-catalogue/transport-and-mobility-data/strava-metro-data>
-3.  NTS:
+5.  NTS:
     <https://www.gov.uk/government/collections/national-travel-survey-statistics>\`
-4.  ALS:
+6.  ALS:
     <https://www.sportengland.org/research-and-data/data/active-lives>
-5.  TfL counts: <https://cycling.data.tfl.gov.uk>
-6.  Openinfra project (oi_is_lit):
+7.  iMCD Project: Glasgow Household Survey and Travel Diary Data:
+    <https://www.ubdc.ac.uk/data-services/data-catalogue/integrated-multimedia-city-data-imcd/imcd-project-glasgow-household-survey-and-travel-diary-data/>
+8.  Openinfra project (oi_is_lit):
     <https://udsleeds.github.io/openinfra/reference/oi_is_lit.html>
-7.  nightlight-data: <http://ubdc.gla.ac.uk/dataset/nightlight-data>
-8.  VIIRS satellite imagery:
+9.  Nightlight-data: <http://ubdc.gla.ac.uk/dataset/nightlight-data>
+10. VIIRS satellite imagery:
     <https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG>
-9.  STATS19:
+11. STATS19:
     <https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data>;
     <https://cran.r-project.org/web/packages/stats19/index.html>
-10. FARS:
+12. FARS:
     <https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars>;
     <https://elipousson.github.io/crashapi>
-11. Near Miss project data:
+13. Near Miss project data:
     <https://nacto.org/wp-content/uploads/2017/06/The-Near-Miss-Project-Quantifying-Cyclist-Comfort-and-Safety.pdf>
-12. Data police UK: <https://data.police.uk/data/archive>;
+14. Data police UK: <https://data.police.uk/data/archive>;
     <https://github.com/njtierney/ukpolice>
-13. Scottish IMD:
+15. Scottish IMD:
     <https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/?utm_source=redirect&utm_medium=shorturl&utm_campaign=simd>
-14. English IMD:
+16. English IMD:
     <https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019>
-15. OSM: <https://github.com/udsleeds/openinfra/issues/105>;
+17. OSM: <https://github.com/udsleeds/openinfra/issues/105>;
     <https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv>
