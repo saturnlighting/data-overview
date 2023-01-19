@@ -80,7 +80,7 @@ Scotland
 2017-2018
 </td>
 <td style="text-align:left;">
-Requested to the Urban Big Data Centre (UBDC)
+yes
 </td>
 </tr>
 <tr>
@@ -128,7 +128,7 @@ Global
 <td style="text-align:left;">
 Available Manchester 2015-2018, Sheffield 2017, and Tyne & Wear
 2015-2018. Requested Glasgow 2013-2020, Scotland 2015-2019 to the UBDC,
-also all the UK or England to Strava
+also Glasgow to Strava
 </td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Glasgow and Clyde Valley Planning area
 Between April and November 2015
 </td>
 <td style="text-align:left;">
-Requested to the UBDC
+yes
 </td>
 </tr>
 <tr>
@@ -243,7 +243,7 @@ Glasgow and Edinburgh areas
 2021 and 2022
 </td>
 <td style="text-align:left;">
-Requested to the UBDC
+yes
 </td>
 </tr>
 <tr>
