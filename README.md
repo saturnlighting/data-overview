@@ -274,7 +274,7 @@ yes
 11
 </td>
 <td style="text-align:left;">
-Greater Manchester streetlights
+Greater Manchester street lights
 </td>
 <td style="text-align:left;">
 Lighting
@@ -288,7 +288,7 @@ Rochdale, Salford, Stockport, Tameside, Trafford, Wigan). No data was
 supplied by Oldham.
 </td>
 <td style="text-align:left;">
-2015
+Various
 </td>
 <td style="text-align:left;">
 yes
@@ -478,7 +478,7 @@ yes
 9.  Nightlight-data: <http://ubdc.gla.ac.uk/dataset/nightlight-data>
 10. VIIRS satellite imagery:
     <https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG>
-11. Greater Manchester street lighting:
+11. Greater Manchester street lights:
     <https://mappinggm.org.uk/metadata/#v_gm_moving_active_lives>
 12. STATS19:
     <https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data>;
