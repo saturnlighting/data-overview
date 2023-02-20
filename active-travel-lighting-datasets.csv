@@ -9,10 +9,11 @@ Id,Dataset,Variable ,Specific variable,Geographical coverage,Time coverage,Avail
 8,Openinfra project (oi_is_lit),Lighting,Road lighting,Global,2012-2021,yes
 9,Nightlight-data,Lighting,Ambient lighting,Glasgow and Edinburgh areas,2021 and 2022,yes
 10,VIIRS satellite imagery,Lighting,Ambient lighting,global,2014-present,yes
-11,STATS19,Road safety,"Slight, severe, and fatal casualties",Great Britain,1979-2021,yes
-12,FARS (Fatality Analysis Reporting System),Road safety,Fatal casualties,United States,1975-2020,yes
-13,Near Miss project data,Road safety,Near misses,United Kingdom,Autumn 2014 and Autumn 2015,?
-14,Data police UK,Crime,Offenses,"England, Wales and Northern Ireland",2013-2022,yes
-15,Scottish Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,Scotland,2020,yes
-16,English Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,England,2019,yes
-17,OpenStretMap,Infrastructure,Cycling infrastructure,Global,2015-2018,yes
+11,Greater Manchester street lights,Lighting,Maintained street lights and some off-street lighting,"Greater Manchester local authorities (Bolton, Bury, Manchester, Rochdale, Salford, Stockport, Tameside, Trafford, Wigan). No data was supplied by Oldham.",Various,yes
+12,STATS19,Road safety,"Slight, severe, and fatal casualties",Great Britain,1979-2021,yes
+13,FARS (Fatality Analysis Reporting System),Road safety,Fatal casualties,United States,1975-2020,yes
+14,Near Miss project data,Road safety,Near misses,United Kingdom,Autumn 2014 and Autumn 2015,?
+15,Data police UK,Crime,Offenses,"England, Wales and Northern Ireland",2013-2022,yes
+16,Scottish Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,Scotland,2020,yes
+17,English Index of Multiple Deprivation (IMD),Crime and deprivation,Crime and deprivation,England,2019,yes
+18,OpenStretMap,Infrastructure,Cycling infrastructure,Global,2015-2018,yes

@@ -126,9 +126,9 @@ Global
 2010-2021
 </td>
 <td style="text-align:left;">
-Available Manchester 2015-2018, Sheffield 2017, and Tyne & Wear
-2015-2018. Requested Glasgow 2013-2020, Scotland 2015-2019 to the UBDC,
-also Glasgow to Strava
+Available Manchester 2015-2018, Sheffield 2017, Tyne & Wear 2015-2018,
+Glasgow 2013-2020, and Scotland 2015-2019 from the UBDC; also requested
+Glasgow to Strava.
 </td>
 </tr>
 <tr>
@@ -274,6 +274,31 @@ yes
 11
 </td>
 <td style="text-align:left;">
+Greater Manchester streetlights
+</td>
+<td style="text-align:left;">
+Lighting
+</td>
+<td style="text-align:left;">
+Maintained street lights and some off-street lighting
+</td>
+<td style="text-align:left;">
+Greater Manchester local authorities (Bolton, Bury, Manchester,
+Rochdale, Salford, Stockport, Tameside, Trafford, Wigan). No data was
+supplied by Oldham.
+</td>
+<td style="text-align:left;">
+2015
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
 STATS19
 </td>
 <td style="text-align:left;">
@@ -294,7 +319,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:right;">
-12
+13
 </td>
 <td style="text-align:left;">
 FARS (Fatality Analysis Reporting System)
@@ -317,7 +342,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:right;">
-13
+14
 </td>
 <td style="text-align:left;">
 Near Miss project data
@@ -340,7 +365,7 @@ Autumn 2014 and Autumn 2015
 </tr>
 <tr>
 <td style="text-align:right;">
-14
+15
 </td>
 <td style="text-align:left;">
 Data police UK
@@ -363,7 +388,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:right;">
-15
+16
 </td>
 <td style="text-align:left;">
 Scottish Index of Multiple Deprivation (IMD)
@@ -386,7 +411,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:right;">
-16
+17
 </td>
 <td style="text-align:left;">
 English Index of Multiple Deprivation (IMD)
@@ -409,7 +434,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:right;">
-17
+18
 </td>
 <td style="text-align:left;">
 OpenStretMap
@@ -453,19 +478,21 @@ yes
 9.  Nightlight-data: <http://ubdc.gla.ac.uk/dataset/nightlight-data>
 10. VIIRS satellite imagery:
     <https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG>
-11. STATS19:
+11. Greater Manchester street lighting:
+    <https://mappinggm.org.uk/metadata/#v_gm_moving_active_lives>
+12. STATS19:
     <https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data>;
     <https://cran.r-project.org/web/packages/stats19/index.html>
-12. FARS:
+13. FARS:
     <https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars>;
     <https://elipousson.github.io/crashapi>
-13. Near Miss project data:
+14. Near Miss project data:
     <https://nacto.org/wp-content/uploads/2017/06/The-Near-Miss-Project-Quantifying-Cyclist-Comfort-and-Safety.pdf>
-14. Data police UK: <https://data.police.uk/data/archive>;
+15. Data police UK: <https://data.police.uk/data/archive>;
     <https://github.com/njtierney/ukpolice>
-15. Scottish IMD:
+16. Scottish IMD:
     <https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/?utm_source=redirect&utm_medium=shorturl&utm_campaign=simd>
-16. English IMD:
+17. English IMD:
     <https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019>
-17. OSM: <https://github.com/udsleeds/openinfra/issues/105>;
+18. OSM: <https://github.com/udsleeds/openinfra/issues/105>;
     <https://github.com/udsleeds/openinfra/blob/main/data-small/atf-funds.csv>
